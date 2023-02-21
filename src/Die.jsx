@@ -4,7 +4,7 @@ import toad from "./assets/toad-img.png"
 import goomba from "./assets/goomba-img.png"
 import piranha from "./assets/piranha-img.png"
 import bowser from "./assets/bowser.png"
-import toad from "./assets/yoshi-img.png"
+import yoshi from "./assets/yoshi-img.png"
 
 export default function Die(props) {
   // const styles = {
