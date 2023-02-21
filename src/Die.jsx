@@ -1,4 +1,10 @@
 import React from "react";
+import mario from "./assets/mario-img.png"
+import toad from "./assets/toad-img.png"
+import goomba from "./assets/goomba-img.png"
+import piranha from "./assets/piranha-img.png"
+import bowser from "./assets/bowser.png"
+import toad from "./assets/yoshi-img.png"
 
 export default function Die(props) {
   // const styles = {
@@ -7,17 +13,17 @@ export default function Die(props) {
 
   function getImage() {
     if (props.value === 1) {
-      return "no-repeat center/contain url('.src/assets/mario-img.png')";
+      return "no-repeat center/contain url('{mario}')";
     } else if (props.value === 2) {
-      return "no-repeat center/contain url('src/assets/goomba-img.png')";
+      return "no-repeat center/contain url('assets/goomba-img.png')";
     } else if (props.value === 3) {
-      return "no-repeat center/contain url('src/assets/piranha-img.png')";
+      return "no-repeat center/contain url('assets/piranha-img.png')";
     } else if (props.value === 4) {
-      return "no-repeat center/contain url('src/assets/toad-img.png')";
+      return "no-repeat center/contain url('assets/toad-img.png')";
     } else if (props.value === 5) {
-      return "no-repeat center/contain url('.src/assets/yoshi-img.png')";
+      return "no-repeat center/contain url('assets/yoshi-img.png')";
     } else if (props.value === 6) {
-      return "no-repeat center/contain url('.src/assets/bowser.png')";
+      return "no-repeat center/contain url('assets/bowser.png')";
     }
   }
 

@@ -3,6 +3,7 @@ import React from "react"
 import Die from "./Die"
 import {nanoid} from "nanoid"
 import Confetti from "react-confetti"
+import smlogo from "./assets/SM-Logo.png"
 
 export default function App() {
 
@@ -75,7 +76,7 @@ export default function App() {
             <h1 className="title">Tenzies</h1>
             
             
-            <img className="header-img" src="src/assets/SM-Logo.png" alt="company logo" />
+            <img className="header-img" src="{smlogo}" alt="company logo" />
             
             
             <p className="instructions">Roll until all dice are the same. 
