@@ -9,11 +9,11 @@ export default function Die(props) {
     if (props.value === 1) {
       return "no-repeat center/contain url('.src/assets/mario-img.png')";
     } else if (props.value === 2) {
-      return "no-repeat center/contain url('.src/assets/goomba-img.png')";
+      return "no-repeat center/contain url('src/assets/goomba-img.png')";
     } else if (props.value === 3) {
-      return "no-repeat center/contain url('.src/assets/piranha-img.png')";
+      return "no-repeat center/contain url('src/assets/piranha-img.png')";
     } else if (props.value === 4) {
-      return "no-repeat center/contain url('.src/assets/toad-img.png')";
+      return "no-repeat center/contain url('src/assets/toad-img.png')";
     } else if (props.value === 5) {
       return "no-repeat center/contain url('.src/assets/yoshi-img.png')";
     } else if (props.value === 6) {
