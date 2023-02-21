@@ -17,7 +17,7 @@ export default function Die(props) {
     } else if (props.value === 5) {
       return "no-repeat center/contain url('.src/assets/yoshi-img.png')";
     } else if (props.value === 6) {
-      return "no-repeat center/contain url('.src/assets/bowser-img.png')";
+      return "no-repeat center/contain url('.src/assets/bowser.png')";
     }
   }
 
