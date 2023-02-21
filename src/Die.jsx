@@ -15,15 +15,15 @@ export default function Die(props) {
     if (props.value === 1) {
       return `no-repeat center/contain url('${mario}')`;
     } else if (props.value === 2) {
-      return "no-repeat center/contain url('assets/goomba-img.png')";
+      return `no-repeat center/contain url('${goomba}')`;
     } else if (props.value === 3) {
-      return "no-repeat center/contain url('assets/piranha-img.png')";
+      return `no-repeat center/contain url('${piranha}')`;
     } else if (props.value === 4) {
-      return "no-repeat center/contain url('assets/toad-img.png')";
+      return `no-repeat center/contain url('${toad}')`;
     } else if (props.value === 5) {
-      return "no-repeat center/contain url('assets/yoshi-img.png')";
+      return `no-repeat center/contain url('${yoshi}')`;
     } else if (props.value === 6) {
-      return "no-repeat center/contain url('assets/bowser.png')";
+      return `no-repeat center/contain url('${bowser}')`;
     }
   }
 
