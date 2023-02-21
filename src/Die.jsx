@@ -13,7 +13,7 @@ export default function Die(props) {
 
   function getImage() {
     if (props.value === 1) {
-      return "no-repeat center/contain url('{mario}')";
+      return `no-repeat center/contain url('${mario}')`;
     } else if (props.value === 2) {
       return "no-repeat center/contain url('assets/goomba-img.png')";
     } else if (props.value === 3) {
