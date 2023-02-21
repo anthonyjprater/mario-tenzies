@@ -75,7 +75,7 @@ export default function App() {
             <h1 className="title">Tenzies</h1>
             
             
-            <img className="header-img" src="src/assets/SM-Logo.png" alt="company logo" />
+            <img className="header-img" src="./assets/SM-Logo.png" alt="company logo" />
             
             
             <p className="instructions">Roll until all dice are the same. 
