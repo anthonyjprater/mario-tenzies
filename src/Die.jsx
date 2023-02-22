@@ -1,9 +1,9 @@
 import React from "react";
 import mario from "./assets/mario-img.png"
-import toad from "./assets/luigi-img.png"
+import luigi from "./assets/luigi-img.png"
 import goomba from "./assets/goomba-img.png"
-import piranha from "./assets/boo-super-king.png"
-import bowser from "./assets/Smash-bowser-img.png"
+import kingBoo from "./assets/boo-super-king.png"
+import bowser from "./assets/Smash-Bowser-img.png"
 import yoshi from "./assets/yoshi-img.png"
 
 export default function Die(props) {
@@ -17,9 +17,9 @@ export default function Die(props) {
     } else if (props.value === 2) {
       return `no-repeat center/contain url('${goomba}')`;
     } else if (props.value === 3) {
-      return `no-repeat center/contain url('${piranha}')`;
+      return `no-repeat center/contain url('${kingBoo}')`;
     } else if (props.value === 4) {
-      return `no-repeat center/contain url('${toad}')`;
+      return `no-repeat center/contain url('${luigi}')`;
     } else if (props.value === 5) {
       return `no-repeat center/contain url('${yoshi}')`;
     } else if (props.value === 6) {
