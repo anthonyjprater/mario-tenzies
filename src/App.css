@@ -43,13 +43,15 @@ main {
   margin: 0;
 }
 
-.instructions {
+.instructions,
+.counter {
   font-family: 'Press Start 2P', cursive;
   font-size: 0.8rem;
   font-weight: 400;
-  margin-top: 0;
+  margin: 2em 0;
   text-align: center;
 }
+
 
 .dice-container {
   display: grid;

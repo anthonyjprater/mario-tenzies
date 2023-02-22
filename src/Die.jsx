@@ -1,9 +1,9 @@
 import React from "react";
 import mario from "./assets/mario-img.png"
-import toad from "./assets/toad-img.png"
+import toad from "./assets/luigi-img.png"
 import goomba from "./assets/goomba-img.png"
-import piranha from "./assets/piranha-img.png"
-import bowser from "./assets/bowser.png"
+import piranha from "./assets/boo-super-king.png"
+import bowser from "./assets/Smash-bowser-img.png"
 import yoshi from "./assets/yoshi-img.png"
 
 export default function Die(props) {
